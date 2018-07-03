@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="key_height">56dip</dimen>
+    <dimen name="key_height_bottom_row">53dip</dimen>
+    <dimen name="key_height_popup">50dip</dimen>
+    <dimen name="key_height_zhuyin">42dip</dimen>
+    <dimen name="candidate_font_height">28sp</dimen>
+    <dimen name="candidates_view_height">42sp</dimen>
+    <dimen name="qrWH">300dp</dimen>
+    <dimen name="kb_key_height">38dp</dimen>
+    <dimen name="kb_key_margin_top">6dp</dimen>
+</resources>

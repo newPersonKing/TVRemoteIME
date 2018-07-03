@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AdbLib/AdbLib.iml" filepath="$PROJECT_DIR$/AdbLib/AdbLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DroidDLNA/DroidDLNA.iml" filepath="$PROJECT_DIR$/DroidDLNA/DroidDLNA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IMEService/IMEService.iml" filepath="$PROJECT_DIR$/IMEService/IMEService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ijkplayer/ijkplayer.iml" filepath="$PROJECT_DIR$/ijkplayer/ijkplayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sources.iml" filepath="$PROJECT_DIR$/sources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thunder/thunder.iml" filepath="$PROJECT_DIR$/thunder/thunder.iml" />
+    </modules>
+  </component>
+</project>

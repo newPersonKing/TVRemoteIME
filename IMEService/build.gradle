@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '27.0.3'
+
+    defaultConfig {
+        applicationId 'com.android.tvremoteime'
+        minSdkVersion 14
+        targetSdkVersion 15
+        versionCode 11
+        versionName "1.4.1"
+    }
+    buildTypes {
+        debug{
+            minifyEnabled false
+        }
+        release{
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), '../proguard-project.txt'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(path: ':ijkplayer')
+    compile project(path: ':AdbLib')
+    compile project(path: ':DroidDLNA')
+
+}

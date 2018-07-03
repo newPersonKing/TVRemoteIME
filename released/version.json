@@ -1,0 +1,6 @@
+{
+    "versionCode": 11,
+    "versionName": "1.4.1",
+    "installAPK": "https://gitee.com/kingthy/TVRemoteIME/raw/master/released/IMEService-release.apk",
+    "message": "1.支持更改投屏名称。\r\n2.TV端键盘添加隐藏键。\r\n3.修复已知BUG。"
+}

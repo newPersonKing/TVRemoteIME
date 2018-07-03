@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#444"
+    android:padding="10dp"
+    android:focusable="true">
+
+    <LinearLayout
+        android:id="@+id/topLine"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/kb_key_height"
+        android:layout_centerHorizontal="true"
+        android:focusable="true">
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="1" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="2" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="3" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="4" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="5" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="6" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="7" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="8" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="9" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/qweLine"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/kb_key_height"
+        android:layout_below="@+id/topLine"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/kb_key_margin_top"
+        android:focusable="true">
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="Q" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="W" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="E" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="R" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="T" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="Y" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="U" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="I" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="O" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="P" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/asdLine"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/kb_key_height"
+        android:layout_below="@+id/qweLine"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/kb_key_margin_top"
+        android:focusable="true">
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="A" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="S" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="D" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="F" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="G" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="H" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="J" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="K" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="L" />
+
+        <ImageButton
+            android:id="@+id/btnDelete"
+            style="@style/btn_input_style"
+            android:layout_width="wrap_content"
+            android:src="@drawable/delete_icon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/zxcLine"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/kb_key_height"
+        android:layout_below="@+id/asdLine"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/kb_key_margin_top"
+        android:focusable="true">
+
+        <ImageButton
+            android:id="@+id/btnCaps"
+            style="@style/btn_input_style"
+            android:layout_width="wrap_content"
+            android:src="@drawable/shift_icon"
+            android:background="@drawable/key_off"/>
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="Z" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="X" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="C" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="V" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="B" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="N" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="M" />
+
+        <ImageButton
+            android:id="@+id/btnEnter"
+            style="@style/btn_input_style"
+            android:layout_width="wrap_content"
+            android:src="@drawable/enter_icon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomLine"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/kb_key_height"
+        android:layout_below="@+id/zxcLine"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/kb_key_margin_top"
+        android:focusable="true">
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="," />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="." />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text=":" />
+
+        <ImageButton
+            android:id="@+id/btnSpace"
+            style="@style/btn_input_style"
+            android:layout_width="wrap_content"
+            android:src="@drawable/space_icon" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="\?" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="/" />
+
+        <Button
+            style="@style/btn_input_style"
+            android:text="\\" />
+
+        <ImageButton
+            android:id="@+id/btnHelp"
+            android:src="@drawable/net_icon"
+            android:layout_width="wrap_content"
+            style="@style/btn_input_style" />
+        <Button
+            android:id="@+id/btnClose"
+            style="@style/btn_input_style"
+            android:text="▲" />
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/helpDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:background="#d5d1d1"
+        android:visibility="gone">
+        <RelativeLayout
+            android:id="@+id/titlelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:background="#4a4a4a"
+            android:padding="5dp">
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="远程输入请扫描或直接访问以下地址：Version "
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titlelayout"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="#d5d1d1"
+            android:layout_centerInParent="true">
+            <ImageView
+                android:id="@+id/ivQRCode"
+                android:layout_width="@dimen/qrWH"
+                android:layout_height="@dimen/qrWH" />
+            <TextView
+                android:id="@+id/tvAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="16sp"
+                android:textColor="#845909"
+                android:layout_marginTop="10dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

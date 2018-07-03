@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="app_play_btn_style">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@drawable/app_play_btn_bg</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+</resources>
